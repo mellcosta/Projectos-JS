@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vamos calcular</title>
+   
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>Calculadora</h1>
+     <h2> Somador</h2>   
+    </header>
+
+    <input type="number" name="som1" id="som1"> +            <!--Entrada do primeiro número-->
+    <input type="number" name="som2" id="som2">              <!--Entrada do segundo número-->
+    <input type="button" value="Somar" onclick= 'somar()'>   <!--ao clicar no botão 'somar' inicia a soma-->
+
+    <br/> <!-- o broke roll é um quebra linha, coloca o texto na linha de baixo-->
+
+    <section>
+
+    <div id="res1">
+        <p>Resultado</p> 
+    </div>
+   
+    </section>
+
+    <header>
+        <h2> Subtrator</h2>   
+       </header>
+   
+       <input type="number" name="sub1" id="sub1"> -                  <!--Entrada do primeiro número-->
+       <input type="number" name="sub2" id="sub2">                    <!--Entrada do segundo número-->
+       <input type="button" value="Subtrair" onclick= 'subtrair()'>   <!--ao clicar no botão 'subtrair' inicia a subtração-->
+   
+       <br/> 
+   
+       <section>
+   
+       <div id="res2">
+           <p>Resultado</p> 
+       </div>
+      
+       </section>
+
+       <header>
+        
+        <h2> Multiplicador</h2>   
+       </header>
+   
+       <input type="number" name="mul1" id="mul1"> *                        <!--Entrada do primeiro número-->
+       <input type="number" name="mul2" id="mul2">                          <!--Entrada do segundo número-->
+       <input type="button" value="Multiplicar" onclick= 'multiplicar()'>   <!--ao clicar no botão 'multiplicar' inicia a multiplicação-->
+   
+       <br/> 
+   
+       <section>
+   
+       <div id="res3">
+           <p>Resultado</p> 
+       </div>
+      
+       </section>
+
+       <header>
+        <h2> Divisor</h2>   
+       </header>
+   
+       <input type="number" name="div1" id="div1"> /                <!--Entrada do primeiro número-->
+       <input type="number" name="div2" id="div2">                  <!--Entrada do segundo número-->
+       <input type="button" value="Dividir" onclick= 'dividir()'>   <!--ao clicar no botão 'dividir' inicia a divisão-->
+   
+       <br/> 
+   
+       <section>
+   
+       <div id="res4">
+           <p>Resultado</p> 
+       </div>
+      
+       </section>
+
+
+
+   <footer>
+       <p> &MelissaTrading</p>
+   </footer>
+
+  
+    <script src="script.js"></script>
+</body>
+</html>

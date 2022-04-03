@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(148, 225, 228);
+    
+}
+
+header{
+    color: aliceblue;
+    font: large 15pt Times;
+    
+}
+
+section{
+font: normal 15pt Times;
+    background: white;
+    width: 100px;                           /* Largura da caixa do resultado*/
+    height: 25px;                           /* Altura da caixa do resultado*/
+    box-shadow: 5px 5px 5px black;
+    
+}
+
+
+footer{
+
+    color: white;
+    text-align: end;
+    text-align: center;
+    font: normal 10pt Times;
+    font-style: italic;
+
+
+}
