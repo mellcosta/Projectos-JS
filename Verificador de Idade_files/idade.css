@@ -17,11 +17,11 @@ section {
     padding: 15px; /* espaçamento do rectangulo*/
     width: 500px; /* largura fixa*/
     height: 200px;  /* alturaaa*/
-    margin: auto; /* para centralizar o rectangulo*/
+    margin: 0 auto; /* para centralizar o rectangulo*/
     box-shadow: 5px 5px 10px rgb(22, 22, 22); /* Sombra da caixa com: 
-                                        -5px de deslocamento lateral
-                                        -5px de deslocamento vertical
-                                        -10px de espalhamento
+                -5px de deslocamento lateral
+                    -5px de deslocamento vertical
+                        -10px de espalhamento
                                                                     */
 }
 
