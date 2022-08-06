@@ -1,0 +1,45 @@
+body {
+
+    background-color: rgb(39, 51, 61);
+    font: normal 15pt Arial;
+}
+
+header {
+
+    color: rgb(98, 187, 199); /* para a cor do Título e do Cabeçalho */
+    text-align: center; /* para centralizar o titulo */
+}
+
+section {
+
+    background: white;
+    border-radius: 5px; /*  arredonda o raio da borda do rectangulo*/
+    padding: 15px; /* espaçamento do rectangulo*/
+    width: 500px; /* largura fixa*/
+    height: 200px;  /* alturaaa*/
+    margin: auto; /* para centralizar o rectangulo*/
+    box-shadow: 5px 5px 10px rgb(22, 22, 22); /* Sombra da caixa com: 
+                                        -5px de deslocamento lateral
+                                        -5px de deslocamento vertical
+                                        -10px de espalhamento
+                                                                    */
+}
+
+div.hidden {
+    display: none;
+}
+
+div.hidden h1 {
+    font-family: fantasy;
+    color: purple;
+}
+
+
+footer {
+
+    color: rgb(98, 187, 199);
+    text-align: center;
+    font-style: italic;
+
+}
+
